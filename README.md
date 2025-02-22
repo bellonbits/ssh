@@ -16,15 +16,19 @@ For Windows PowerShell, use:
 
 powershell
 cd C:\Users\YourUsername\Downloads
+```
 ## 🔐 Step 2: Set Secure Permissions for Your Key
+```bash
 To ensure security, modify the permissions of the .pem file:
 
 chmod 400 gatitu.pem
 
 ⚠️ (Windows users can skip this step!)
-
+```
 ## 🌐 Step 3: Connect to Your Virtual Machine
+```bash
 Now, let’s SSH into the VM! Run this command:
 
 ssh -i gatitu.pem gatitu@20.246.98.159
+``
 # 🎉 Success! You're now inside your virtual machine!
