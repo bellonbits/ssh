@@ -30,5 +30,4 @@ chmod 400 gatitu.pem
 Now, let’s SSH into the VM! Run this command:
 
 ssh -i gatitu.pem gatitu@20.246.98.159
-``
-# 🎉 Success! You're now inside your virtual machine!
+🎉 Success! You're now inside your virtual machine!
